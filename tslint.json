@@ -1,0 +1,13 @@
+{
+  "extends": ["gts/tslint.json","tslint:latest", "tslint-react"],
+  "linterOptions": {
+    "exclude": [
+      "**/*.json"
+    ]
+  },
+  "rules": {
+    "no-default-export": false,
+    "variable-name": false
+  }
+}
+
