@@ -33,7 +33,7 @@ class ResumePage extends React.Component<Props, State> {
   }
 
   async fetchData() {
-    const url = '/resume.json';
+    const url = './resume.json';
 
     const respText = await fetch(url).then(e => e.json());
     const resume = respText as Resume;
